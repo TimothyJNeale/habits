@@ -39,3 +39,31 @@ body {
   font-size: 1.5rem;
   margin: 0;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+}
+
+.form__input {
+  padding: 1rem;
+  font-size: inherit;
+  font-family: inherit;
+  resize: none;
+  border: 3px solid black;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background-color: #fafafa;
+}
+
+.form__button {
+  padding: 0.5rem 2.5rem;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  border-radius: 6px;
+  background-color: #f9dba0;
+  cursor: pointer;
+  align-self: flex-end;
+}
