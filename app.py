@@ -6,7 +6,7 @@ app = Flask(__name__)
 habits = ["Test Habit", "Test habit 2"]  # List of habits
 
 @app.context_processor
-def add_calc_data_range():
+def add_calc_date_range():
     def date_range(start: datetime.date):
         dates = [start + datetime.timedelta(days=diff) for diff in range(-3, 4)]
         return dates

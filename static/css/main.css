@@ -67,3 +67,30 @@ body {
   cursor: pointer;
   align-self: flex-end;
 }
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.dates__link {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+}
+
+.dates__link--current {
+  background-color: #f9dba0;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
