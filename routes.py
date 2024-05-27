@@ -48,8 +48,8 @@ def complete():
     date_string = request.form.get("date")
     habit = request.form.get("habitName")
     date = datetime.date.fromisoformat(date_string)
-    print (date, habit)
+    #print (date, habit)
     completions[date].append(habit)
-    print (completions[date])
+    #print (completions[date])
     
     return redirect(url_for("habits.index", date=date_string))
